@@ -1,0 +1,51 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "myadf10jul"
+		},
+		"ds_query_password": {
+			"value": ""
+		},
+		"ls_destination_connectionString": {
+			"value": ""
+		},
+		"ls_dummy_connectionString": {
+			"value": ""
+		},
+		"ls_dummy1_connectionString": {
+			"value": ""
+		},
+		"ls_lastloaddate_connectionString": {
+			"value": ""
+		},
+		"ls_maxloaddate_password": {
+			"value": ""
+		},
+		"ds_query_properties_typeProperties_server": {
+			"value": "mydbsrv.database.windows.net"
+		},
+		"ds_query_properties_typeProperties_database": {
+			"value": "mydb"
+		},
+		"ds_query_properties_typeProperties_userName": {
+			"value": "azureuser"
+		},
+		"ls_maxloaddate_properties_typeProperties_server": {
+			"value": "mydbsrv.database.windows.net"
+		},
+		"ls_maxloaddate_properties_typeProperties_database": {
+			"value": "mydb"
+		},
+		"ls_maxloaddate_properties_typeProperties_userName": {
+			"value": "azureuser"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
