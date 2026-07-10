@@ -9,7 +9,9 @@
 		"type": "DelimitedText",
 		"typeProperties": {
 			"location": {
-				"type": "AzureBlobStorageLocation"
+				"type": "AzureBlobStorageLocation",
+				"fileName": "SampleEmployee.txt",
+				"container": "dfsource"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
