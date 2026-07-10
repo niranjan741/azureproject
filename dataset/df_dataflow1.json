@@ -10,7 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
-				"fileName": "SampleEmployee.txt",
+				"fileName": "booking_date_2024-06-18_data.csv",
 				"container": "dfsource"
 			},
 			"columnDelimiter": ",",
