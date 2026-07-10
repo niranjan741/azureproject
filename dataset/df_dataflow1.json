@@ -1,0 +1,21 @@
+{
+	"name": "df_dataflow1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_dataflow1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
